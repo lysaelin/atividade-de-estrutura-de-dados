@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 typedef struct {
     char nome[100];  
     int grade;       
@@ -90,7 +89,7 @@ void printStudent(const estudante* estudantes) {
 int main() {
     
     estudante estudantes[] = {
-        {"João", 75},
+        {"JoÃ£o", 75},
         {"Maria", 85},
         {"Pedro", 65},
         {"Ana", 92},
@@ -121,4 +120,3 @@ int main() {
 
     return 0;
 }
-
